@@ -9,7 +9,7 @@ public class CostoAlNodo implements Comparable<CostoAlNodo>{
 	public CostoAlNodo(int nodo, int costoMinimo) {
 		this.nodo = nodo;
 		this.costoMinimo = costoMinimo;
-		caminoMasCorto = new ArrayList<Integer>();
+		this.caminoMasCorto = new ArrayList<Integer>();
 	}
 	
 	public int getNodo() 

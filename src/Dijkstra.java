@@ -40,7 +40,6 @@ public class Dijkstra {
 		while(!cola.isEmpty()) {
 			nodoActual = cola.poll();
 			nodo = nodoActual.getNodo();
-			
 			for(int i=0; i<cantNodos; i++) {
 				if(nodo != i && !nodoTerminado[i]) {
 					if(grafo.hayArista(nodo, i)) {
